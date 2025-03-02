@@ -1,0 +1,12 @@
+type: object
+description: Description details of the Error Message.
+properties:
+  errorCode:
+    type: string
+    description: This field contains unique, numeric identifier for the specific root cause of the error.
+  errorMessage:
+    type: string
+    description: This field contains the literal test that describe the error message.
+  messageIdentifier:
+    type: string
+    description: This field contains unique, alpha-numeric indetifier for the errror message.

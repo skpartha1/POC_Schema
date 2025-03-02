@@ -1,0 +1,7 @@
+type: object
+description: Description details of the Gateway Timeout Error Message.
+properties:
+  error:
+    type: string
+    description: 'Timed out after waiting 20000(ms) for a reply failed'
+    example: "(RECIPIENT_FAILURE,0) Timed out after waiting 20000(ms) for a reply failed"

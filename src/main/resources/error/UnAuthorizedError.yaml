@@ -1,0 +1,7 @@
+type: object
+description: Description details of the Un-Authorized Error Message.
+properties:
+  error:
+    type: string
+    description: Invalid authentication, JWT verification failed
+    example: "(RECIPIENT_FAILURE,401) {\"ErrorCode\":\"invalid_authorization_token\"}"

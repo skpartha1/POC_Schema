@@ -1,0 +1,6 @@
+name: one-data-correlation-id
+in: header
+description: Unique Identifier of originating request.
+required: true
+schema:
+  type: string

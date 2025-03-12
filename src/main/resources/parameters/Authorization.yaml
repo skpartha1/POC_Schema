@@ -1,0 +1,7 @@
+name: Authorization
+in: header
+required: true
+description: AUthorization mechanism for services.
+schema:
+  type: string
+  example: claims bluetoken

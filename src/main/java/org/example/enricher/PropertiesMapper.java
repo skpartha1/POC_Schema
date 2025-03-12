@@ -15,7 +15,6 @@ import java.util.function.Function;
 @Slf4j
 public class PropertiesMapper implements Function<JsonParser, JsonNode> {
 
-
     @Override
     public JsonNode apply(JsonParser jsonNode) {
         ObjectNode outputNode = AppConstants.om.createObjectNode();
